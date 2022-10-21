@@ -1,13 +1,8 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+Minimal contract change from TribeRedeemer.
+The notible differences are that after a preset time period (365 days) all remaining funds will be donated to 2 charities with their unique ratios.
+Gas optimizations have intentionally been avoided an only the absolute minimum changes have been implimented. 
 
 ```shell
-npx hardhat help
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+wip: npx hardhat run scripts/deploy.js
 ```
